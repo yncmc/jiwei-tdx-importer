@@ -9,21 +9,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>nexus</id>
-            <name>Team Nexus Public Repository</name>
-            <url>http://192.168.0.227:8081/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>nexus</id>
-            <name>Team Nexus Repository</name>
-            <url>http://192.168.0.227:8081/nexus/content/groups/public</url>
-        </pluginRepository>
-    </pluginRepositories>
-
     <build>
         <finalName>jiwei-tdx-importer</finalName>
         <plugins>
