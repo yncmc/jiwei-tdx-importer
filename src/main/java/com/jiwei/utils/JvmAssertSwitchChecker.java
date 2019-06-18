@@ -13,7 +13,7 @@ public class JvmAssertSwitchChecker {
         try {
             logger.info("准备检查JVM断言是否开启");
 
-            assert false : "assert check";
+            assert false : "assert checking";
             logger.error(ASSERT_CHECK_MESSAGE);
             System.out.println(ASSERT_CHECK_MESSAGE);
 
